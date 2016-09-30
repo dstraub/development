@@ -1,0 +1,22 @@
+dn: dc=sample,dc=de
+objectClass: top
+objectClass: dcObject
+objectClass: organization
+dc: sample
+o: sample
+
+dn: ou=people,dc=sample,dc=de
+ou: people
+description: All people in organisation
+objectclass: organizationalunit
+
+dn: ou=groups,dc=sample,dc=de
+ou: groups
+description: All groups in organisation
+objectclass: organizationalunit
+
+dn: cn=test,ou=people,dc=sample,dc=de
+objectClass: inetOrgPerson
+sn: test
+cn: test
+userpassword: 12#Password
